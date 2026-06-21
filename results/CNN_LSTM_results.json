@@ -1,0 +1,11 @@
+{
+  "model": "CNN_LSTM",
+  "test_accuracy": 0.9290804207668816,
+  "test_f1": 0.9305059199359146,
+  "test_precision": 0.9310646629641769,
+  "test_recall": 0.9303314021160541,
+  "test_loss": 0.1896018334133583,
+  "best_val_f1": 0.9674177277209998,
+  "best_epoch": 3,
+  "total_params": 140230
+}

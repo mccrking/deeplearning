@@ -1,0 +1,11 @@
+{
+  "model": "CNN",
+  "test_accuracy": 0.486,
+  "test_f1": 0.471863640047121,
+  "test_precision": 0.4743247765359892,
+  "test_recall": 0.4949973445607997,
+  "test_loss": 1.4070606212615966,
+  "best_val_f1": 0.424097810422822,
+  "best_epoch": 14,
+  "total_params": 102602
+}

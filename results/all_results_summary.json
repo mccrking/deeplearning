@@ -1,0 +1,72 @@
+{
+  "MLP": {
+    "model": "MLP",
+    "test_accuracy": 0.9418604651162791,
+    "test_f1": 0.9381739755571532,
+    "test_precision": 0.9356775300171527,
+    "test_recall": 0.9409722222222222,
+    "test_loss": 0.10884128545605859,
+    "best_val_f1": 0.9874763361001893,
+    "best_epoch": 13,
+    "total_params": 14818,
+    "auc_per_class": [
+      0.9942129629629629,
+      0.994212962962963
+    ]
+  },
+  "CNN": {
+    "model": "CNN",
+    "test_accuracy": 0.486,
+    "test_f1": 0.471863640047121,
+    "test_precision": 0.4743247765359892,
+    "test_recall": 0.4949973445607997,
+    "test_loss": 1.4070606212615966,
+    "best_val_f1": 0.424097810422822,
+    "best_epoch": 14,
+    "total_params": 102602
+  },
+  "RNN": {
+    "model": "RNN",
+    "test_accuracy": 0.8761452324397693,
+    "test_f1": 0.875236135984213,
+    "test_precision": 0.8764026785121514,
+    "test_recall": 0.8758097760303752,
+    "test_loss": 0.4479851918298186,
+    "best_val_f1": 0.9376645027259499,
+    "best_epoch": 16,
+    "total_params": 135942
+  },
+  "LSTM": {
+    "model": "LSTM",
+    "test_accuracy": 0.8720732948761453,
+    "test_f1": 0.8710894156277842,
+    "test_precision": 0.8716595196828246,
+    "test_recall": 0.8717212116012725,
+    "test_loss": 0.39139118722934196,
+    "best_val_f1": 0.9372969954810778,
+    "best_epoch": 5,
+    "total_params": 11398
+  },
+  "GRU": {
+    "model": "GRU",
+    "test_accuracy": 0.8917543264336614,
+    "test_f1": 0.8912002640724497,
+    "test_precision": 0.891086571406185,
+    "test_recall": 0.8923762153083743,
+    "test_loss": 0.305625244077582,
+    "best_val_f1": 0.9630986052252637,
+    "best_epoch": 6,
+    "total_params": 8646
+  },
+  "CNN_LSTM": {
+    "model": "CNN_LSTM",
+    "test_accuracy": 0.9290804207668816,
+    "test_f1": 0.9305059199359146,
+    "test_precision": 0.9310646629641769,
+    "test_recall": 0.9303314021160541,
+    "test_loss": 0.1896018334133583,
+    "best_val_f1": 0.9674177277209998,
+    "best_epoch": 3,
+    "total_params": 140230
+  }
+}

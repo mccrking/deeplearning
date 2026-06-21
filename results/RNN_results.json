@@ -1,0 +1,11 @@
+{
+  "model": "RNN",
+  "test_accuracy": 0.8761452324397693,
+  "test_f1": 0.875236135984213,
+  "test_precision": 0.8764026785121514,
+  "test_recall": 0.8758097760303752,
+  "test_loss": 0.4479851918298186,
+  "best_val_f1": 0.9376645027259499,
+  "best_epoch": 16,
+  "total_params": 135942
+}

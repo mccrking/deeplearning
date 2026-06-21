@@ -1,0 +1,11 @@
+{
+  "model": "GRU",
+  "test_accuracy": 0.8917543264336614,
+  "test_f1": 0.8912002640724497,
+  "test_precision": 0.891086571406185,
+  "test_recall": 0.8923762153083743,
+  "test_loss": 0.305625244077582,
+  "best_val_f1": 0.9630986052252637,
+  "best_epoch": 6,
+  "total_params": 8646
+}

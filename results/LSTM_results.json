@@ -1,0 +1,11 @@
+{
+  "model": "LSTM",
+  "test_accuracy": 0.8720732948761453,
+  "test_f1": 0.8710894156277842,
+  "test_precision": 0.8716595196828246,
+  "test_recall": 0.8717212116012725,
+  "test_loss": 0.39139118722934196,
+  "best_val_f1": 0.9372969954810778,
+  "best_epoch": 5,
+  "total_params": 11398
+}
