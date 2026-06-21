@@ -1,4 +1,4 @@
-# Structure du projet Deep Learning — CIFAR-10
+# Structure du projet Deep Learning 
 
 ```
 deep_learning_project/
