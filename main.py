@@ -8,11 +8,6 @@ from utils.config import set_seed, DEVICE, RESULTS_DIR, PLOTS_DIR
 
 def main():
     print("="*70)
-    print("  PROJET DEEP LEARNING - GUIDE DE RÉFÉRENCE")
-    print("  MLP • CNN • RNN • LSTM • GRU • Architectures Hybrides")
-    print("  Réalisé par : Mehdi Chmiti")
-    print("  Encadré par : Mme. Zineb Hdila")
-    print("  Groupe : 4IAD G3")
     print(f"  Device : {DEVICE}")
     print("="*70)
     
