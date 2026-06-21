@@ -1,18 +1,8 @@
-"""
-Script principal - Exécution de toutes les expérimentations
-Projet Deep Learning - Mehdi Chmiti - Encadré par Mme. Zineb Hdila - 4IAD G3
-Guide de Référence pour l'Entraînement de Modèles de Deep Learning
-MLP • CNN • RNN • LSTM • GRU • Architectures Hybrides
-"""
 
 import os
 import sys
 import json
 import time
-
-# Ajouter le répertoire du projet au path
-PROJECT_DIR = "/home/z/my-project/download/deep_learning_project"
-sys.path.insert(0, PROJECT_DIR)
 
 from utils.config import set_seed, DEVICE, RESULTS_DIR, PLOTS_DIR
 
