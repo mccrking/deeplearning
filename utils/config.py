@@ -1,8 +1,4 @@
-"""
-Configuration globale du projet Deep Learning
-Guide de Référence pour l'Entraînement de Modèles de Deep Learning
-Réalisé par : Mehdi Chmiti | Encadré par : Mme. Zineb Hdila | 4IAD G3
-"""
+
 
 import torch
 import numpy as np
@@ -25,7 +21,7 @@ DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Device utilisé : {DEVICE}")
 
 # === Chemins ===
-PROJECT_DIR = "/home/z/my-project/download/deep_learning_project"
+PROJECT_DIR = "./"
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 MODELS_DIR = os.path.join(PROJECT_DIR, "models")
 RESULTS_DIR = os.path.join(PROJECT_DIR, "results")
