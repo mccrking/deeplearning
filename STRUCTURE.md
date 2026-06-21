@@ -4,7 +4,6 @@
 deep_learning_project/
 │
 ├── main.py                          # Script principal : entraînement + évaluation
-├── README.md                        # Ce fichier
 ├── STRUCTURE.md                     # Structure détaillée
 │
 ├── utils/                           # Utilitaires
@@ -38,12 +37,7 @@ deep_learning_project/
 │       ├── {model}_roc_curves.png        # Courbes ROC multiclasse
 │       ├── MLP_feature_importance.png    # Importance des features (MLP)
 │       └── RNN_comparison.png            # Comparaison RNN vs variants
-│
-└── report/                          # Rapport académique
-    ├── rapport.tex                  # Source LaTeX
-    ├── rapport.pdf                  # PDF final
-    ├── cover.html                   # Page de garde (HTML)
-    └── cover.pdf                    # Page de garde (PDF)
+│               
 ```
 
 ## Modèles implémentés
@@ -68,7 +62,3 @@ python main.py
 
 # 3. Les résultats sont générés dans results/ et models/
 ```
-
-## Auteur
-- **Réalisé par** : Mehdi Chmiti — Groupe 4IAD G3
-- **Encadré par** : Zineb Hdila
