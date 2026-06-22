@@ -1,7 +1,4 @@
-"""
-Utilitaires d'entraînement, métriques et visualisation
-Projet Deep Learning - Mehdi Chmiti - 4IAD G3
-"""
+
 
 import torch
 import numpy as np
@@ -267,9 +264,3 @@ def plot_roc_curves(y_true, y_probs, n_classes, class_names, model_name, save_di
     return aucs
 
 
-def generate_classification_report(y_true, y_pred, class_names, model_name):
-    """Génère un rapport de classification détaillé."""
-    report = classification_report(y_true, y_pred, target_names=class_names, digits=4)
-    print(f"\nRapport de classification - {model_name}:")
-    print(report)
-    return report
